@@ -1,2 +1,3 @@
-# redhat
-Demo things
+# Linux-kurssi
+Hei maailma
+

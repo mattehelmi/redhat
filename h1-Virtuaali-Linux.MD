@@ -36,7 +36,13 @@ Tässä tehtävässä seurasin suoraan Teron tekemiä ohjeita, ja se oli myös v
 - Tämän jälkeen käynnistin tietokoneen taas uudestaan
 - Seuraavaksi asensin Guest Additionsin, jonka tarkoitus on asentaa oikeat ajurit, jotta näytön resoluutio paranee
 - Seurasin edelleen ohjeita ja sain ajurit asennettua ja näytön resoluutio muuttui "normaaliksi"
-- 
+- Nyt minulla on täysin toimiva Debian virtuaalikoneessa
+
+## Ajankäyttö
+Tehtävää nopeutti huomattavasti se, että olin jo entuudestaan käyttänyt VirtualBoxia ja asentanut sille muutaman eri linux-käyttöjärjestelmän. Aikaa koko prosessiin kului noin 30 minuuttia. Tähän tehtävään en pilko tarkempia aikoja, sillä tehtävä oli mielestäni sen verran yksinkertainen. Kun asiat muuttuvat teknisemmiksi niin tulen kirjoittamaan kellonajat tarkkaan ylös.
+
+## Lähteet
+Karvinen, T. 2023. Install Debian on Virtualbox - Updated 2023. https://terokarvinen.com/2021/install-debian-on-virtualbox/
 
 
 

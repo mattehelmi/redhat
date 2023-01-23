@@ -31,7 +31,7 @@ Asensin seuraavat kolme komentoriviohjelmaa itselleni: Googler, Neofetch ja ncdu
 
 ![Add file: Upload](ncdu.png)
 
-## Tärketä kansiot
+## Tärkeitä kansioita
 
 ### /
 Root-kansio, joka on kaikista ylin kansio koko järjestelmässä.

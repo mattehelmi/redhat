@@ -8,4 +8,4 @@ Asensin Micro-editorin Debianin komentorivin kautta seuraavalla komennolla: sudo
 ## Lshw:n asennus ja raudan listaus
 Minulla ei ollut lshw:ta asennettuna, joten asensin sen virtuaalikoneelleni komentorivin kautta seuraavalla komennolla: sudo apt-get install lshw.
 
-
+![Add file: Upload](lshw-install.png)

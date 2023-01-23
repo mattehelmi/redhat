@@ -20,3 +20,5 @@ Komento 'sudo lshw -short -sanitize' listaa tarkat tiedot käyttämästä raudas
 Asensin seuraavat kolme komentoriviohjelmaa itselleni: Googler, Neofetch ja ncdu. Kaikki ohjelmat sai ladattua ja asennettua yhdellä komennolla: 'sudo apt-get -y install googler neofetch ncdu'. Seuraavaksi kuvakaappaukset ja lyhyet selitykset ohjelmista.
 
 Googler on komentorivityökalu Googlen käyttöön.
+
+![Add file: Upload](googler.png)

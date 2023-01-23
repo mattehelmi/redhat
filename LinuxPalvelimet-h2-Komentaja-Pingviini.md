@@ -31,3 +31,4 @@ Asensin seuraavat kolme komentoriviohjelmaa itselleni: Googler, Neofetch ja ncdu
 
 ![Add file: Upload](ncdu.png)
 
+    moimoi

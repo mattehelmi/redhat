@@ -49,7 +49,7 @@ Käyttäjän "Mathias" koti-kansio. Käyttäjä "Mathias" tallentaa tänne kaike
 ![Add file: Upload](mathias.png)
 
 ### /etc/
-Tästä kansiosta löytyy kaikki järjestelmän asetukset helposti luettavassa teksti tekstimuodossa. KLO: 11.48
+Tästä kansiosta löytyy kaikki järjestelmän asetukset helposti luettavassa tekstimuodossa. KLO: 11.48
 
 ![Add file: Upload](etc.png)
 

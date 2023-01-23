@@ -15,3 +15,8 @@ Kun lshw oli asennettu niin listasin käyttämäni raudan komennolla: 'sudo lshw
 ![Add file: Upload](KoneenRauta.png)
 
 Komento 'sudo lshw -short -sanitize' listaa tarkat tiedot käyttämästä raudasta. Listaus on kategorisoitu neljään eri osaan: H/W path, device, class ja description. Listalta on helppo lukea tarkat tiedot raudasta jolla työskentelen. Nämä tiedot ovat oleellisia esimerkiksi vianmäärityksessä. 
+
+## Kolmen uuden komentoriviohjelman asennus
+Asensin seuraavat kolme komentoriviohjelmaa itselleni: Googler, Neofetch ja ncdu. Kaikki ohjelmat sai ladattua ja asennettua yhdellä komennolla: 'sudo apt-get -y install googler neofetch ncdu'. Seuraavaksi kuvakaappaukset ja lyhyet selitykset ohjelmista.
+
+Googler on komentorivityökalu Googlen käyttöön.

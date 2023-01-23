@@ -11,3 +11,5 @@ Minulla ei ollut lshw:ta asennettuna, joten asensin sen virtuaalikoneelleni kome
 ![Add file: Upload](lshw-install.png)
 
 Kun lshw oli asennettu niin listasin käyttämäni raudan komennolla: 'sudo lshw -short -sanitize'.
+
+![Add file: Upload](koneenRauta-install.png)

@@ -23,10 +23,11 @@ Asensin seuraavat kolme komentoriviohjelmaa itselleni: Googler, Neofetch ja ncdu
 
 ![Add file: Upload](googler.png)
 
-Neofetch on komentorivityökalu, joka listaa raudan ja sitä on todella helppo käyttää, sillä se listaa tiedon helposti luettavaan muotoon.
+**Neofetch** on komentorivityökalu, joka listaa raudan ja sitä on todella helppo käyttää, sillä se listaa tiedon helposti luettavaan muotoon.
 
 ![Add file: Upload](neofetch.png)
 
-Ncdu on komentorivityökalu, joka listaa raudan muistia käyttävät ohjelmat ja kansiot. 
+**Ncdu** on komentorivityökalu, joka listaa raudan muistia käyttävät ohjelmat ja kansiot. 
 
 ![Add file: Upload](ncdu.png)
+

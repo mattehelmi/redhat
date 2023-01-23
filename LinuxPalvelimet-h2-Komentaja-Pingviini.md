@@ -13,3 +13,5 @@ Minulla ei ollut lshw:ta asennettuna, joten asensin sen virtuaalikoneelleni kome
 Kun lshw oli asennettu niin listasin käyttämäni raudan komennolla: 'sudo lshw -short -sanitize'.
 
 ![Add file: Upload](KoneenRauta.png)
+
+Komento 'sudo lshw -short -sanitize' listaa tarkat tiedot käyttämästä raudasta. Listaus on kategorisoitu neljään eri osaan: H/W path, device, class ja description. Listalta on helppo lukea tarkat tiedot raudasta jolla työskentelen. Nämä tiedot ovat oleellisia esimerkiksi vianmäärityksessä. 

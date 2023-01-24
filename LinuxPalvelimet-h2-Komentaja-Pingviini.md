@@ -33,32 +33,32 @@ Asensin seuraavat kolme komentoriviohjelmaa itselleni: Googler, Neofetch ja ncdu
 
 ## Tärkeitä kansioita
 
-### /
+### "/"
 Root-kansio, joka on kaikista ylin kansio koko järjestelmässä. KLO: 11.30
 
 ![Add file: Upload](root.png)
 
-### /home/
+### "/home/"
 Sisältää kaikkien käyttäjien koti-kansiot. KLO: 11.35
 
 ![Add file: Upload](home.png)
 
-### /home/mathias/
+### "/home/mathias/"
 Käyttäjän "Mathias" koti-kansio. Käyttäjä "Mathias" tallentaa tänne kaiken lataamansa datan. KLO: 11.41
 
 ![Add file: Upload](mathias.png)
 
-### /etc/
+### "/etc/"
 Tästä kansiosta löytyy kaikki järjestelmän asetukset helposti luettavassa tekstimuodossa. KLO: 11.48
 
 ![Add file: Upload](etc.png)
 
-### /media/
+### "/media/"
 Tästä kansiosta löytyy ns. irrotettavat mediat kuten usb-tikut ja cd-levyt. KLO: 11.55
 
 ![Add file: Upload](media.png)
 
-### /var/log/
+### "/var/log/"
 Tästä kansiosta löytyy kaikki järjestelmän lokitiedostot esim. 'syslog'. KLO: 12.05
 
 ![Add file: Upload](varLog.png)

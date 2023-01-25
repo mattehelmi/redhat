@@ -35,8 +35,12 @@ Välimäki 2005: Rise of Open Source: 5 Open Source Licenses as Alternative Gove
 
 ## Lähteet
 https://www.gnu.org/philosophy/free-sw.html
+
 http://lib.tkk.fi/Diss/2005/isbn9529187793/isbn9529187793.pdf
+
 https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/
+
 https://github.com/jarun/googler/blob/main/LICENSE
+
 https://github.com/dylanaraps/neofetch/blob/master/LICENSE.md
 

@@ -15,17 +15,17 @@ Välimäki 2005: Rise of Open Source: 5 Open Source Licenses as Alternative Gove
 - Lähdekoodin tulee olla avoin ja helposti saatavilla
 
 ## a) Tarkastele kolmen edellisessä harjoituksessa asentamasi ohjelman lisenssejä
-Googler
+**Googler**
 - GNU General Public License v.3
 - Lisenssi löytyi githubista (https://github.com/jarun/googler/blob/main/LICENSE)
 - Vapaa lisenssi
 
-Neofetch
+**Neofetch**
 - MIT License (MIT)
 - Lisenssi löytyi githubista (https://github.com/dylanaraps/neofetch/blob/master/LICENSE.md)
 - Vapaa lisenssi
 
-Ncdu (NCurses Disk Usage)
+**Ncdu** (NCurses Disk Usage)
 - MIT License (MIT)
 - Lisenssi löytyy tekijän omilta sivuilta (https://dev.yorhel.nl/ncdu)
 - Vapaa lisenssi

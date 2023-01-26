@@ -46,11 +46,11 @@ Välimäki 2005: Rise of Open Source: 5 Open Source Licenses as Alternative Gove
 
 ## b)
 
-
+![Add file: Upload](grepB))
 
 ## c)
 
-
+![Add file: Upload](grepC).png)
 
 ## Lähteet
 https://www.gnu.org/philosophy/free-sw.html

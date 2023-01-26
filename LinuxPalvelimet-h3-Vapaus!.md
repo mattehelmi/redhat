@@ -45,6 +45,7 @@ Välimäki 2005: Rise of Open Source: 5 Open Source Licenses as Alternative Gove
 - Vapaa lisenssi
 
 ## b)
+Tässä tehtävässä tekstitiedostosta piti poimia tietoa grep-komennolla. Komennolla ``grep 'foo' demo.txt`` sain näkyviin tekstitiedostosta kaikki rivit, joissa esiintyy sana "foo".
 
 ![Add file: Upload](GrepB.png)
 

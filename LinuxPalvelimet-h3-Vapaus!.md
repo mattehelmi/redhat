@@ -44,6 +44,11 @@ Välimäki 2005: Rise of Open Source: 5 Open Source Licenses as Alternative Gove
 - Lisenssi löytyy tekijän omilta sivuilta (https://dev.yorhel.nl/ncdu)
 - Vapaa lisenssi
 
+## b)
+
+
+
+## c)
 
 
 

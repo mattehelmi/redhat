@@ -45,11 +45,12 @@ Välimäki 2005: Rise of Open Source: 5 Open Source Licenses as Alternative Gove
 - Vapaa lisenssi
 
 ## b)
-Tässä tehtävässä tekstitiedostosta piti poimia tietoa grep-komennolla. Komennolla ``grep 'foo' demo.txt`` sain näkyviin tekstitiedostosta kaikki rivit, joissa esiintyy sana "foo".
+Tässä tehtävässä tekstitiedostosta piti poimia tietoa grep-komennolla. Komennolla ``grep 'foo' demo.txt`` sain näkyviin tekstitiedostosta kaikki rivit, joissa esiintyy sana "foo". KLO 11.50
 
 ![Add file: Upload](GrepB.png)
 
 ## c)
+Tässä tehtävässä piti näyttää esimerkki putken käyttämisestä (pipes). Komennolla ``cat demo.txt | grep -i 'bar'`` etsin tekstitiedostosta kaikki rivit, joissa mainitaan sana "bar". Tämän jälkeen lisäsin uuden putken ``grep -i db``, se etsi jäljelle jääneestä tekstistä kirjaimet "db". Jäjelle jäi rivi, jossa luki "bar4.db". KLO 12.55
 
 ![Add file: Upload](GrepC.png)
 
@@ -64,3 +65,4 @@ https://github.com/jarun/googler/blob/main/LICENSE
 
 https://github.com/dylanaraps/neofetch/blob/master/LICENSE.md
 
+https://www.guru99.com/linux-pipe-grep.html

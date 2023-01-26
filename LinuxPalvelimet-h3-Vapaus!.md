@@ -46,7 +46,7 @@ Välimäki 2005: Rise of Open Source: 5 Open Source Licenses as Alternative Gove
 
 ## b)
 
-![Add file: Upload](GrepB)
+![Add file: Upload](GrepB.png)
 
 ## c)
 

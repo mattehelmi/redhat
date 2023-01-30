@@ -17,3 +17,36 @@
     
 
 ## x) Lue ja tiivistä
+
+
+
+## a) Tukki - Analysoi yksi esimerkkirivi kustakin lokista
+
+- /var/log/syslog
+![Add file: Upload](syslog.png)
+
+
+- /var/log/auth.log
+![Add file: Upload](auth.png)
+
+
+- /var/log/apache2/access.log
+![Add file: Upload](access.png)
+
+
+- /var/log/apache2/error.log
+![Add file: Upload](error.png)
+
+
+## b) Aiheuta lokiin kaksi eri tapahtumaa ja analysoi rivit yksityiskohtaisesti
+
+1. Onnistunut toimenpide
+![Add file: Upload](loki1.png)
+
+Avasin Mozilla -selaimen ja kirjoitin hakukenttään "localhost". Tämän jälkeen menin linuxin komentoriville ja kirjoitin seuraavan komennon ``sudo tail -10 /var/log/apache2/access.log``. 
+
+2. Epäonnistunut toimenpide
+![Add file: Upload](loki2.png)
+
+Avasin Mozilla -selaimen ja kirjoitin hakukenttään "localhost/random". Selaimeen tuli teksti "404 Not Found". Tämän jälkeen menin linuxin komentoriville ja kirjoitin seuraavan komennon ``sudo tail -10 /var/log/apache2/access.log``. 
+

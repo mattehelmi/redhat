@@ -24,11 +24,13 @@
 
 - /var/log/syslog
 ![Add file: Upload](syslog.png)
-Päivämäärä, käyttäjä, ohjelman nimi (ja pid?), mitä ohjelma tekee. Anacron on aikataulutusohjelma ja tämä loki kertoo, että cron.daily on käynnistynyt. En löytänyt nopealla googlauksella tarkoittaako [4307] anacronin perässä prosessin tunnistenumeroa.
+``Päivämäärä, tietokoneen nimi, ohjelman nimi (ja pid?), mitä ohjelma tekee``
+Anacron on aikataulutusohjelma ja tämä loki kertoo, että cron.daily on käynnistynyt. En löytänyt nopealla googlauksella tarkoittaako [4307] anacronin perässä prosessin tunnistenumeroa.
 
 - /var/log/auth.log
 ![Add file: Upload](auth.png)
-Päivämäärä, käyttäjä, root-oikeudet(sudo)
+``Päivämäärä, tietokoneen nimi ja root-oikeudet(sudo), käyttäjän nimi, mitä on tehty ja millä oikeuksilla `` 
+Yllä oleva kuva näyttää, että olen sudo-oikeuksilla avannut ``/var/log/auth.log`` lokin.
 
 - /var/log/apache2/access.log
 ![Add file: Upload](access.png)

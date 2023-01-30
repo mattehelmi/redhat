@@ -53,15 +53,20 @@ Avasin lokin komennolla ``sudo tail -10 /var/log/apache2/error.log``. Ensimmäis
 ## b) Aiheuta lokiin kaksi eri tapahtumaa ja analysoi rivit yksityiskohtaisesti
 
 1. Onnistunut toimenpide
-
 ![Add file: Upload](loki1.png)
 
-Avasin Mozilla -selaimen ja kirjoitin hakukenttään "localhost". Tämän jälkeen menin linuxin komentoriville ja kirjoitin seuraavan komennon ``sudo tail -10 /var/log/apache2/access.log``. 
+Avasin Mozilla -selaimen ja kirjoitin hakukenttään "localhost". Tämän jälkeen menin linuxin komentoriville ja kirjoitin seuraavan komennon ``sudo tail -10 /var/log/apache2/access.log``. Ensimmäisenä näkyy Apachen ip-osoite. Sitten päivämäärä. Sen jälkeen kerrotaan, mitä on tehty ja onko se onnistunut. Tämän jälkeen selain sekä käyttöjärjestelmä. Tämä on Apache HTTP serverin luoma lokitiedosto, joka käsittelee kaikki apache serverin kutsut. Tämä lokirivi muodostui kun kävin Mozilla Firefoxin kautta apachen http serverillä. Tämä oli onnistunut toimenpide ja luku "200" yllä olevassa kuvassa kertoo sen. En ollut vieläkään varma mitä "Gecko" tarkoitti.
+
 
 2. Epäonnistunut toimenpide
-
 ![Add file: Upload](loki2.png)
 
-Avasin Mozilla -selaimen ja kirjoitin hakukenttään "localhost/random". Selaimeen tuli teksti "404 Not Found". Tämän jälkeen menin linuxin komentoriville ja kirjoitin seuraavan komennon ``sudo tail -10 /var/log/apache2/access.log``. 
+Avasin Mozilla -selaimen ja kirjoitin url-hakukenttään "localhost/random". Selaimeen tuli teksti "404 Not Found". Tämän jälkeen menin linuxin komentoriville ja kirjoitin seuraavan komennon ``sudo tail -10 /var/log/apache2/access.log``. Printattu teksti on melkein sama kuin edellisessä tehtävässä, ainoa ero on numero "404 488". "HTTP 404 Not Found" tarkoittaa, että serveri ei löytänyt pyydettyä resurssia. 
 
 ## Lähteet
+
+https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/
+
+https://hn.algolia.com/?dateEnd=1643270199&dateRange=custom&dateStart=1547942400&page=0&prefix=false&query=command%20line&sort=byPopularity&type=story
+
+https://www.ionos.com/digitalguide/websites/website-creation/what-does-the-404-not-found-error-mean/

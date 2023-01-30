@@ -17,6 +17,8 @@
     
 
 ## x) Lue ja tiivistä
+1. Awesome macOS Command Line
+        asdfasfa
 
 
 

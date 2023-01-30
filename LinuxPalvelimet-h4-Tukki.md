@@ -24,19 +24,21 @@
 
 - /var/log/syslog
 ![Add file: Upload](syslog.png)
-``Päivämäärä, tietokoneen nimi, ohjelman nimi (ja pid?), mitä ohjelma tekee``
+``Päivämäärä, tietokoneen nimi, ohjelman nimi (ja pid?), mitä ohjelma tekee.``
 
 Anacron on aikataulutusohjelma ja tämä loki kertoo, että cron.daily on käynnistynyt. En löytänyt nopealla googlauksella tarkoittaako [4307] anacronin perässä prosessin tunnistenumeroa.
 
 - /var/log/auth.log
 ![Add file: Upload](auth.png)
-``Päivämäärä, tietokoneen nimi ja root-oikeudet(sudo), käyttäjän nimi, mitä on tehty ja millä oikeuksilla `` 
+``Päivämäärä, tietokoneen nimi ja root-oikeudet(sudo), käyttäjän nimi, mitä on tehty ja millä oikeuksilla.`` 
 
 Yllä oleva kuva näyttää, että olen sudo-oikeuksilla avannut ``/var/log/auth.log`` lokin.
 
 - /var/log/apache2/access.log
 ![Add file: Upload](access.png)
+``Apachen ip-osoite, päivämäärä, mitä on tehty ja onko se onnistunut, selain, käyttöjärjestelmä, gecko?, selain?``
 
+Avasin lokin komennolla ``sudo tail -10 /var/log/apache2/access.log``. Tämä on Apache HTTP serverin luoma lokitiedosto, joka käsittelee kaikki apache serverin kutsut. Tämä lokirivi muodostui kun kävin Mozilla Firefoxin kautta apachen http serverillä. Tämä oli onnistunut toimenpide ja luku "200" yllä olevassa kuvassa kertoo sen. En ollut varma mitä "Gecko" tarkoitti.
 
 - /var/log/apache2/error.log
 ![Add file: Upload](error.png)

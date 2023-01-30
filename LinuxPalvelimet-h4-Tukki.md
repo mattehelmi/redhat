@@ -24,11 +24,11 @@
 
 - /var/log/syslog
 ![Add file: Upload](syslog.png)
-
+Päivämäärä, käyttäjä, ohjelman nimi (ja pid?), mitä ohjelma tekee. Anacron on aikataulutusohjelma ja tämä loki kertoo, että cron.daily on käynnistynyt. En löytänyt nopealla googlauksella tarkoittaako [4307] anacronin perässä prosessin tunnistenumeroa.
 
 - /var/log/auth.log
 ![Add file: Upload](auth.png)
-
+Päivämäärä, käyttäjä, root-oikeudet(sudo)
 
 - /var/log/apache2/access.log
 ![Add file: Upload](access.png)
@@ -41,12 +41,15 @@
 ## b) Aiheuta lokiin kaksi eri tapahtumaa ja analysoi rivit yksityiskohtaisesti
 
 1. Onnistunut toimenpide
+
 ![Add file: Upload](loki1.png)
 
 Avasin Mozilla -selaimen ja kirjoitin hakukenttään "localhost". Tämän jälkeen menin linuxin komentoriville ja kirjoitin seuraavan komennon ``sudo tail -10 /var/log/apache2/access.log``. 
 
 2. Epäonnistunut toimenpide
+
 ![Add file: Upload](loki2.png)
 
 Avasin Mozilla -selaimen ja kirjoitin hakukenttään "localhost/random". Selaimeen tuli teksti "404 Not Found". Tämän jälkeen menin linuxin komentoriville ja kirjoitin seuraavan komennon ``sudo tail -10 /var/log/apache2/access.log``. 
 
+## Lähteet

@@ -77,7 +77,7 @@ Avasin Mozilla -selaimen ja kirjoitin hakukenttään "localhost". Tämän jälke
 
 ![Add file: Upload](loki2.png)
 
-Avasin Mozilla -selaimen ja kirjoitin url-hakukenttään "localhost/random". Selaimeen tuli teksti "404 Not Found". Tämän jälkeen menin linuxin komentoriville ja kirjoitin seuraavan komennon ``sudo tail -10 /var/log/apache2/access.log``. Printattu teksti on melkein sama kuin edellisessä tehtävässä, ainoa ero on numero "404 488". "HTTP 404 Not Found" tarkoittaa, että serveri ei löytänyt pyydettyä resurssia. KLO 12:30
+Avasin Mozilla -selaimen ja kirjoitin url-hakukenttään "localhost/random". Selaimeen tuli teksti "404 Not Found". Tämän jälkeen menin linuxin komentoriville ja kirjoitin seuraavan komennon ``sudo tail -10 /var/log/apache2/access.log``. Printattu teksti on melkein sama kuin edellisessä tehtävässä, ainoa ero on numero "404 488". "HTTP 404 Not Found" tarkoittaa, että serveri ei löytänyt pyydettyä resurssia. Kyseinen error ei kuitenkaan mennyt ``/var/log/apache2/error.log`` lokiin. KLO 12:30
 
 ## Lähteet
 

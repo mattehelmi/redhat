@@ -28,10 +28,12 @@
 Ensin näkyy päivämäärä, sitten tietokoneen nimi, tämän jälkeen ohjelman nimi (ja prosessin tunnistenumero?) ja viimeisenä näkyy, mitä ohjelma tekee. Anacron on aikataulutusohjelma ja tämä loki kertoo, että cron.daily on käynnistynyt. En löytänyt nopealla googlauksella tarkoittaako [4307] anacronin perässä prosessin tunnistenumeroa.
 
 
+
 - /var/log/auth.log
 ![Add file: Upload](auth.png)
 
 Ensin näkyy päivämäärä, sitten tietokoneen nimi ja root-oikeudet(sudo), tämän jälkeen käyttäjän nimi sekä mitä on tehty ja millä oikeuksilla.Yllä oleva kuva näyttää, että olen sudo-oikeuksilla avannut ``/var/log/auth.log`` lokin.
+
 
 
 - /var/log/apache2/access.log
@@ -40,10 +42,12 @@ Ensin näkyy päivämäärä, sitten tietokoneen nimi ja root-oikeudet(sudo), t�
 Avasin lokin komennolla ``sudo tail -10 /var/log/apache2/access.log``. Ensimmäisenä näkyy Apachen ip-osoite. Sitten päivämäärä. Sen jälkeen kerrotaan, mitä on tehty ja onko se onnistunut. Tämän jälkeen selain sekä käyttöjärjestelmä. Tämä on Apache HTTP serverin luoma lokitiedosto, joka käsittelee kaikki apache serverin kutsut. Tämä lokirivi muodostui kun kävin Mozilla Firefoxin kautta apachen http serverillä. Tämä oli onnistunut toimenpide ja luku "200" yllä olevassa kuvassa kertoo sen. En ollut varma mitä "Gecko" tarkoitti.
 
 
+
 - /var/log/apache2/error.log
 ![Add file: Upload](error.png)
 
 Avasin lokin komennolla ``sudo tail -10 /var/log/apache2/error.log``. Ensimmäisenä näkyy päivämäärä. En ole varma mitä mpm_event tekee. Prosessin tunnistenumero on 3605. Seuraavaksi näkyy kernelin thread identifier numero. Sen jälkeen näkyy Apache ja sen versionumero sekä käyttöjärjestelmä. Konfiguroitu. Lopussa lukee, että normaalia toimintaa on jatkettu.
+
 
 
 ## b) Aiheuta lokiin kaksi eri tapahtumaa ja analysoi rivit yksityiskohtaisesti

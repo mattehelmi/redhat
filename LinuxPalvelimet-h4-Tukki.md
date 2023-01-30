@@ -18,9 +18,7 @@
 
 ## x) Lue ja tiivistä
 1. Awesome macOS Command Line
-        asdfasfa
-
-
+    Artikkeli kertoo ja listaa tärkeimmät komentorivikomennot macOS:lle
 
 ## a) Tukki - Analysoi yksi esimerkkirivi kustakin lokista
 

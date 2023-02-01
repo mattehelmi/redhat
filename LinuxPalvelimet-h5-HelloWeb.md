@@ -31,7 +31,7 @@ Tässä tehtävässä käytin komentoa ``echo "Hello World"|sudo tee /var/www/ht
 
 ## c) Tee uusi käyttäjä
 
-![Add file: Upload](Esko_Esimerkki.png)
+![Add file: Upload](Esko_ Esimerkki.png)
 
 
 

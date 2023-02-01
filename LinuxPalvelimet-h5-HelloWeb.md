@@ -27,7 +27,7 @@ Tässä tehtävässä käytin komentoa ``echo "Hello World"|sudo tee /var/www/ht
 
 ![Add file: Upload](kotisivu.png)
 
-Tässä tehtävässä muokkasin ``index.html`` tiedostoa ja laitoin tiedoston sisälle lyhyen html koodin, jonka löysin Teron kotisivulta (https://terokarvinen.com/2012/short-html5-page/).
+Tässä tehtävässä muokkasin ``index.html`` tiedostoa komennolla ``nano index.html`` ja laitoin tiedoston sisälle lyhyen html koodin, jonka löysin Teron kotisivulta (https://terokarvinen.com/2012/short-html5-page/). Yllä olevassa kuvassa näkyy, miltä sivu näytti selaimessa.
 
     <!doctype html>
     <html>
@@ -45,7 +45,7 @@ Tässä tehtävässä muokkasin ``index.html`` tiedostoa ja laitoin tiedoston si
 
 ![Add file: Upload](esko.png)
 
-Minulla oli vähän vaikeuksia tämän tehtävän kanssa, koska jostain syystä komento ``adduser`` ei toiminut. Nopean googlauksen jälkeen löysin ratkaisun, eli sudo oikeudet saadaan käyttöön komennolla ``sudo -s``. Tämä komento sai minut root-käyttäjäksi. Tämän jälkeen uuden käyttäjän tekeminen onnistui hyvin. Tein käyttäjän 'esko' koti-kansioon tiedoston ``public_html`` ja sen sisälle ``index.html`` tiedoston. Muokkasin ``index.html`` tiedostoa komennolla ``nano index.html`` ja kirjoitin tiedostoon "Hello World". Tämän jälkeen kokeilin, että näkyykö teksti Mozillassa oikein ja kyllä näkyi. 
+Minulla oli vähän vaikeuksia tämän tehtävän kanssa, koska jostain syystä komento ``adduser`` ei toiminut. Nopean googlauksen jälkeen löysin ratkaisun, eli sudo oikeudet saadaan käyttöön komennolla ``sudo -s``. Tämä komento sai minut root-käyttäjäksi. Tämän jälkeen uuden käyttäjän tekeminen onnistui hyvin. Tein käyttäjän 'esko' koti-kansioon tiedoston ``public_html`` ja sen sisälle ``index.html`` tiedoston. Muokkasin ``index.html`` tiedostoa komennolla ``nano index.html`` ja kirjoitin tiedostoon "Moi, olen Esko!". Tämän jälkeen kokeilin, että näkyykö teksti Mozillassa oikein ja kyllä näkyi. 
 
 ## d) Tee validi HTML sivu
 

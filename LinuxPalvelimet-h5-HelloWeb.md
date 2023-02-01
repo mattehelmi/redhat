@@ -25,13 +25,13 @@ Tässä tehtävässä käytin komentoa ``echo "Hello World"|sudo tee /var/www/ht
 
 ## b) Laita käyttäjän kotisivu toimimaan
 
-![Add file: Upload](käyttäjän-kotisivu.png)
+![Add file: Upload](kotisivu.png)
 
 
 
 ## c) Tee uusi käyttäjä
 
-![Add file: Upload](Esko_ Esimerkki.png)
+![Add file: Upload](esko.png)
 
 
 

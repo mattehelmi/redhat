@@ -27,19 +27,39 @@ Tässä tehtävässä käytin komentoa ``echo "Hello World"|sudo tee /var/www/ht
 
 ![Add file: Upload](kotisivu.png)
 
+Tässä tehtävässä muokkasin ``index.html`` tiedostoa ja laitoin tiedoston sisälle lyhyen html koodin, jonka löysin Teron kotisivulta (https://terokarvinen.com/2012/short-html5-page/).
 
+    <!doctype html>
+    <html>
+    <head>
+	<title>Mathias's Test Page</title>
+	<meta charset="utf-8" />
+    </head>
+    <body>
+	<h1>Mathias's Test Page</h1>
+	<p>Let's test UTF-8 with "päivää"</p>
+    </body>
+    </html>
 
 ## c) Tee uusi käyttäjä
 
 ![Add file: Upload](esko.png)
 
-
+Minulla oli vähän vaikeuksia tämän tehtävän kanssa, koska jostain syystä komento ``adduser`` ei toiminut. Nopean googlauksen jälkeen löysin ratkaisun, eli sudo oikeudet saadaan käyttöön komennolla ``sudo -s``. Tämä komento sai minut root-käyttäjäksi. Tämän jälkeen uuden käyttäjän tekeminen onnistui hyvin. Tein käyttäjän 'esko' koti-kansioon tiedoston ``public_html`` ja sen sisälle ``index.html`` tiedoston. Muokkasin ``index.html`` tiedostoa komennolla ``nano index.html`` ja kirjoitin tiedostoon "Hello World". Tämän jälkeen kokeilin, että näkyykö teksti Mozillassa oikein ja kyllä näkyi. 
 
 ## d) Tee validi HTML sivu
 
 ![Add file: Upload](validator.png)
 
+Tein tämän tehtävän puoliksi valmiiksi tehtävässä b. Lisäsin html koodia ja testasin sen selaimessa ja se näytti oikealta. Kuva tästä näkyy ylempänä tehtävässä b. Kun koodin sisältävä tiedosto ``index.html`` oli valmis, latasin sen https://validator.w3.org nettisivulle ja sain vastaukseksi yllä näkyvän kuvan. Ensimmäinen kohta sanoi, että koodiin pitäisi lisätä ``lang`` atribuutti. Toinen kohta ilmoitti ``/`` merkin käytöstä.
+
 ## Lähteet
 https://www.indiehackers.com/podcasts
 
 https://linuxhint.com/add-user-linux-2/
+
+https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/
+
+https://terokarvinen.com/2012/short-html5-page/
+
+https://validator.w3.org

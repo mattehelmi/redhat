@@ -17,7 +17,7 @@
     
 ## Kuuntele ja tiivistä
 
-x) Tätä tehtävää en kerkeä tekemään aikataulun mukaisesti, sillä valmistaudun huomenna torstaina olevaan työhaastatteluun. Teen tämän valmiiksi ennen perjantain tuntia.
+x) Tätä tehtävää en kerkeä tekemään aikataulun mukaisesti, sillä valmistaudun huomenna torstaina olevaan työhaastatteluun. 
 
 ## a) Apachen esimerkkisivun vaihtaminen
 

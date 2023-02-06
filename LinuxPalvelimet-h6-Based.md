@@ -1,4 +1,4 @@
-# LinuxPalvelimet-h5-HelloWeb!
+# LinuxPalvelimet-h6-Based
 
 ## Mathias Helminen
 
@@ -23,12 +23,15 @@ Apache Software Foundation 2023: Getting Started
 - VirtuaHosts -tiedostot sijaitsevat yleensä kansiossa ``/etc/hosts``
 - Apachen HTTP palvelin konfiguroidaan tekstitiedostojen avulla
 - Nettisivun sisältö voi olla staattista (mm. HTML-tiedostot) tai dynaamista (mm. javascript)
-- Virheilmoitusloki on Apache palvelinylläpitäjän tärkeimpiä
+- Virheilmoitusloki on Apache palvelinylläpitäjän tärkeimpiä työkaluja
 
 Apache Software Foundation 2023: Name-based Virtual Host Support
-- cacaf
-- fafsasf
-- affaf
+- Artikkeli kuvailee miten nimeen perustuvat virtuaali hostit toimivat
+- Yksinkertaisempi käyttää kuin IP-osoitteeseen perustuva virtuaali host
+- Ensimmäiseksi tehdään ``<VirtualHost>`` niminen blokki, jonka sisään laitetaan tarvittavat datat kuten ``ServerName`` ja ``ServerAlias``
+- ServerName voisi esimerkiksi olla www.example.com ja ServerAlias example.com
+- ServerName tarkoittaa, että HTTP pyynnön host osuuden täytyy täsmätä nimeen niin se voidaan hyväksyä
+- ServerAlias alle listataan sanat, joilla palvelimen sivut myös löydetään
 
 ## a) Vaihda Apachelle uusi etusivu
 
@@ -72,3 +75,7 @@ https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/
 https://httpd.apache.org/docs/2.4/getting-started.html
 
 https://httpd.apache.org/docs/current/vhosts/name-based.html
+
+https://serverfault.com/questions/520195/how-does-servername-and-serveralias-work
+
+

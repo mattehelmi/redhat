@@ -40,11 +40,31 @@ Tämän jälkeen annoin komennon ``sudo a2dissite 000-default.conf``. Se kytki 0
 
 Näiden muutosten jälkeen käynnistin Apachen uudelleen, jotta tehdyt muutokset astuivat voimaan. Käytin komentoa ``sudo systemctl restart apache2.service``.
 
-Viimeiseksi tein ``public_sites`` nimisen kansion käyttäjän mathias kotikansioon ja lisäsin sinne ``index.html`` tiedoston. Etusivu on nyt vaihdettu onnistuneesti.
+Viimeiseksi tein ``public_sites`` nimisen kansion käyttäjän mathias kotikansioon ja lisäsin sinne ``index.html`` tiedoston. Testasin selaimessa toimiiko uusi etusivu ja se toimi.
 
 ## b) Tee Apachen asetustiedostoon kirjoitusvirhe
 
+Ensimmäiseksi avasin Apachen asetukset komennolla ``sudoedit /etc/apache2/sites-available/frontpage.conf``. Tein kirjoitusvirheen kirjottamalla "keijo" tiedostopolkuun. Kyseistä "keijo" -nimistä käyttäjää ei oikeasti ole. Halusin nähdä millainen virheilmoitus tästä syntyy.
+
+![Add file: Upload](sudoedit-keijo-h6.png)
+
+Tämän jälkeen käynnistin Apachen uudelleen, jotta muutos tulee voimaan. Käytin tähän seuraavaa komentoa ``sudo systemctl restart apache2.service``. 
+
+Seuraavaksi kokeilin oliko etusivulle tullut muutoksia. Käytin tähän komentoa ``curl localhost``. Muutoksia oli tapahtunut, alla kuva.
+
+![Add file: Upload](sudoedit-virhe-h6.png)
+
+Seuraavaksi käytin komentoja ``sudo tail -1 /var/log/apache2/error.log`` ja ``sudo /usr/sbin/apache2ctl configtest``. Kyseisillä komennoilla saadaa mahdolliset virheet näkyviin. Alla kuva virheilmoituksista.
+
+![Add file: Upload](sudoedit-virheet-h6.png)
 
 
 
 
+## Lähteet
+
+https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/
+
+https://httpd.apache.org/docs/2.4/getting-started.html
+
+https://httpd.apache.org/docs/current/vhosts/name-based.html

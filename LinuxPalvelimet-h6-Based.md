@@ -54,11 +54,13 @@ Seuraavaksi kokeilin oliko etusivulle tullut muutoksia. Käytin tähän komentoa
 
 ![Add file: Upload](sudoedit-virhe-h6.png)
 
-Seuraavaksi käytin komentoja ``sudo tail -1 /var/log/apache2/error.log`` ja ``sudo /usr/sbin/apache2ctl configtest``. Kyseisillä komennoilla saadaa mahdolliset virheet näkyviin. Alla kuva virheilmoituksista.
+Seuraavaksi käytin komentoja ``sudo tail -1 /var/log/apache2/error.log`` ja ``sudo /usr/sbin/apache2ctl configtest``. Kyseisillä komennoilla saadaan mahdolliset virheet näkyviin. Alla kuva virheilmoituksista.
 
 ![Add file: Upload](sudoedit-virheet-h6.png)
 
+Komennolla ``sudo tail -1 /var/log/apache2/error.log`` sain näkyviin tapahtuman virhelokin. Virhelokista silmiin osui [authz_core:error] sekä teksti "AH02630: client denied by server configuration: /home/mathias/public_sites". Tästä päättelin, että kyseessä on oikea virheilmoitus, joka johtuu väärin muotoillusta polusta.
 
+Komento ``sudo /usr/sbin/apache2ctl configtest`` antoi seuraavan tekstin: "AH00558: apache2: Could not reliable determine the servers fully qualified domain name". Tämä virheilmoitus liittyi siis palvelimen domainiin.
 
 
 ## Lähteet

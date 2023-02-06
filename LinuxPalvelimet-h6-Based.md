@@ -17,7 +17,7 @@
     
 ## x) Lue ja tiivistä
 
-Apache Software Foundation 2023: Getting Started
+Apache Software Foundation 2023: Getting Started (https://httpd.apache.org/docs/2.4/getting-started.html)
 - Artikkeli kertoo Apache HTTP serverin käyttöönotosta ja perusteista
 - Clientit, serverit ja URLit tärkeässä asemassa kun asennetaan Apachea
 - VirtuaHosts -tiedostot sijaitsevat yleensä kansiossa ``/etc/hosts``
@@ -25,7 +25,7 @@ Apache Software Foundation 2023: Getting Started
 - Nettisivun sisältö voi olla staattista (mm. HTML-tiedostot) tai dynaamista (mm. javascript)
 - Virheilmoitusloki on Apache palvelinylläpitäjän tärkeimpiä työkaluja
 
-Apache Software Foundation 2023: Name-based Virtual Host Support
+Apache Software Foundation 2023: Name-based Virtual Host Support (https://httpd.apache.org/docs/current/vhosts/name-based.html)
 - Artikkeli kuvailee miten nimeen perustuvat virtuaali hostit toimivat
 - Yksinkertaisempi käyttää kuin IP-osoitteeseen perustuva virtuaali host
 - Ensimmäiseksi tehdään ``<VirtualHost>`` niminen blokki, jonka sisään laitetaan tarvittavat datat kuten ``ServerName`` ja ``ServerAlias``

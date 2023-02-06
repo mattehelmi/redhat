@@ -15,13 +15,15 @@
     Kernel-versio:          Darwin 19.6.0
     Virtuaalikone:          Oracle VirtualBox, Version 6.1.40
     
-## x) Kuuntele ja tiivistä
+## x) Lue ja tiivistä
 
 Apache Software Foundation 2023: Getting Started
-- asa
-- gsgsg
-- gsgsgs
-- fafa
+- Artikkeli kertoo Apache HTTP serverin käyttöönotosta ja perusteista
+- Clientit, serverit ja URLit tärkeässä asemassa kun asennetaan Apachea
+- VirtuaHosts -tiedostot sijaitsevat yleensä kansiossa ``/etc/hosts``
+- Apachen HTTP palvelin konfiguroidaan tekstitiedostojen avulla
+- Nettisivun sisältö voi olla staattista (mm. HTML-tiedostot) tai dynaamista (mm. javascript)
+- Virheilmoitusloki on Apache palvelinylläpitäjän tärkeimpiä
 
 Apache Software Foundation 2023: Name-based Virtual Host Support
 - cacaf

@@ -92,7 +92,7 @@ Menin ``/var/log/auth.log`` lokiin ja sieltä osui heti silmään muutamakin mur
 
 ![Add file: Upload](failed-h7.png)
 
-Kuvasta voi päätellä, että IP-osoite 14.49.113.37 on yrittänyt päästä virtuaalipalvelimelle arvaamalla salasanan kuusi kertaa väärin. Murtautuja on yrittänyt käyttää porttia 63618 ja ssh2 yhteyttä.
+Kuvasta voi päätellä, että IP-osoite 14.49.113.37 on yrittänyt päästä virtuaalipalvelimelle ja arvannut salasanan kuusi kertaa väärin. Murtautuja on yrittänyt käyttää porttia 63618 ja ssh2 yhteyttä.
 
 ## Lähteet
 

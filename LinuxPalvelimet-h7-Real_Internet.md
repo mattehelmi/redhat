@@ -24,13 +24,13 @@ Karvinen 2012: First Steps on a New Virtual Private Server – an Example on Dig
 - asddfs
 - sddsf
 
-## a)
+## a) Vuokraa virtuaalipalvelin
 
 Vuokrasin virtuaalipalvelimen Linode.com sivulta. Operaatio oli helppo ja yksinkertainen. Alla kuva käynnissä olevasta virtuaalipalvelimestani.
 
 ![Add file: Upload](linode-h7.png)
 
-## b)
+## b) Alkutoimet virtuaalipalvelimella
 
 Kun olin kirjautunut root-tunnuksilla virtuaalipalvelimelleni, tein seuraavat alkutoimet:
 
@@ -71,17 +71,24 @@ Kun olin kirjautunut root-tunnuksilla virtuaalipalvelimelleni, tein seuraavat al
     
 Kokeilin jokaisen vaiheen jälkeen, että ne toimivat.
 
-## c)
+## c) Asenna Apache virtuaalipalvelimelle
+
+Asensin Apachen virtuaalipalvelimelle täysin samalla tavalla kuin tehtävässä 6a). Alla kuva toteutuksesta.
+
+![Add file: Upload](apache-h7.png)
+
+Testasin sivun toimivuuden syöttämällä virtuaalipalvelimen IP-numeron selaimeen. Alla kuva miltä se näytti.
+
+![Add file: Upload](ip-h7.png)
 
 
+## d) Etsi merkkejä murtautumisyrityksistä
 
+Menin ``/var/log/auth.log`` lokiin ja sieltä osui heti silmään muutamakin murtautumisyritys. Alla kuva yhdestä esimerkistä.
 
-## d)
+![Add file: Upload](failed-h7.png)
 
-
-
-
-
+Kuvasta voi päätellä, että IP-osoite 14.49.113.37 on yrittänyt päästä virtuaalipalvelimelle arvaamalla salasanan kuusi kertaa väärin. Murtautuja on yrittänyt käyttää porttia 63618 ja ssh2 yhteyttä.
 
 ## Lähteet
 

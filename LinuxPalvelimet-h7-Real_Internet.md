@@ -26,11 +26,18 @@ Karvinen 2012: First Steps on a New Virtual Private Server – an Example on Dig
 
 ## a)
 
+Vuokrasin virtuaalipalvelimen Linode.com sivulta. Operaatio oli helppo ja yksinkertainen. Alla kuva käynnissä olevasta virtuaalipalvelimestani.
 
+![Add file: Upload](linode-h7.png)
 
 ## b)
 
+Kun olin kirjautunut root-tunnuksilla virtuaalipalvelimelleni, tein seuraavat alkutoimet:
 
+- Laitoin tulimuurin päälle
+
+    ``$ sudo ufw allow 22/tcp``
+    ``$ sudo ufw enable``
 
 ## c)
 

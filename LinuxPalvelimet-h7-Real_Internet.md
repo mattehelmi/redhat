@@ -35,7 +35,6 @@ Vuokrasin virtuaalipalvelimen Linode.com sivulta. Operaatio oli helppo ja yksink
 Kun olin kirjautunut root-tunnuksilla virtuaalipalvelimelleni, tein seuraavat alkutoimet:
 
 - Laitoin tulimuurin päälle
-
     $ sudo ufw allow 22/tcp
     $ sudo ufw enable
 

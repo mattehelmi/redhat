@@ -37,7 +37,7 @@ Kun olin kirjautunut root-tunnuksilla virtuaalipalvelimelleni, tein seuraavat al
 - Laitoin tulimuurin päälle
 
     $ sudo ufw allow 22/tcp
-    $ sudo ufw enable``
+    $ sudo ufw enable
 
 ## c)
 

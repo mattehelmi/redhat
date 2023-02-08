@@ -65,6 +65,10 @@ Kun olin kirjautunut root-tunnuksilla virtuaalipalvelimelleni, tein seuraavat al
     
     ``$ sudo service ssh restart``
     
+- Tein tulimuuriin reiän valmiiksi Apachelle
+
+    ``$ sudo ufw allow 80/tcp``
+    
 Kokeilin jokaisen vaiheen jälkeen, että ne toimivat.
 
 ## c)

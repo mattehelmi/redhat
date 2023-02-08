@@ -39,6 +39,32 @@ Kun olin kirjautunut root-tunnuksilla virtuaalipalvelimelleni, tein seuraavat al
     ``$ sudo ufw allow 22/tcp``
     
     ``$ sudo ufw enable``
+    
+- Latasin uusimmat päivitykset
+
+    ``$ sudo apt-get update``
+    
+    ``$ sudo apt-get upgrade``
+
+- Tein uuden käyttäjän
+
+    ``$ sudo adduser mathias``
+    
+    ``$ sudo adduser mathias sudo``
+    
+    ``$ sudo adduser mathias adm``
+    
+    ``$ sudo adduset mathias admin``
+    
+- Lukitsin root-käyttäjän
+
+    ``$ sudo usermod --lock root``
+    
+    ``$ sudoedit /etc/ssh/sshd_config``
+    
+    ``$ sudo service ssh restart``
+    
+Kokeilin jokaisen vaiheen jälkeen, että ne toimivat.
 
 ## c)
 

@@ -30,7 +30,7 @@ Karvinen 2012: First Steps on a New Virtual Private Server – an Example on Dig
 
 ## a) Vuokraa virtuaalipalvelin
 
-Vuokrasin virtuaalipalvelimen Linode.com sivulta. Operaatio oli helppo ja yksinkertainen. Alla kuva käynnissä olevasta virtuaalipalvelimestani.
+Vuokrasin virtuaalipalvelimen Linode.com sivulta. Operaatio oli helppo ja yksinkertainen. Alla kuva käynnissä olevasta virtuaalipalvelimestani. KLO 10:10
 
 ![Add file: Upload](linode-h7.png)
 
@@ -73,7 +73,7 @@ Kun olin kirjautunut root-tunnuksilla virtuaalipalvelimelleni, tein seuraavat al
 
     ``$ sudo ufw allow 80/tcp``
     
-Kokeilin jokaisen vaiheen jälkeen, että ne toimivat.
+Kokeilin jokaisen vaiheen jälkeen, että ne toimivat. KLO 10:46
 
 ## c) Asenna Apache virtuaalipalvelimelle
 
@@ -81,7 +81,7 @@ Asensin Apachen virtuaalipalvelimelle täysin samalla tavalla kuin tehtävässä
 
 ![Add file: Upload](apache-h7.png)
 
-Testasin sivun toimivuuden syöttämällä virtuaalipalvelimen IP-numeron selaimeen. Alla kuva miltä se näytti.
+Testasin sivun toimivuuden syöttämällä virtuaalipalvelimen IP-numeron selaimeen. Alla kuva miltä se näytti. KLO 11:23
 
 ![Add file: Upload](ip-h7.png)
 
@@ -92,7 +92,7 @@ Menin ``/var/log/auth.log`` lokiin ja sieltä osui heti silmään muutamakin mur
 
 ![Add file: Upload](failed-h7.png)
 
-Kuvasta voi päätellä, että IP-osoite 14.49.113.37 on yrittänyt päästä virtuaalipalvelimelle ja arvannut salasanan kuusi kertaa väärin. Murtautuja on yrittänyt käyttää porttia 63618 ja ssh2 yhteyttä.
+Kuvasta voi päätellä, että IP-osoite 14.49.113.37 on yrittänyt päästä virtuaalipalvelimelle ja arvannut salasanan kuusi kertaa väärin. Murtautuja on yrittänyt käyttää porttia 63618 ja ssh2 yhteyttä. KLO 12:16
 
 ## Lähteet
 

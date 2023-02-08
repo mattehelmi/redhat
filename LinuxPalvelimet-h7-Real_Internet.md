@@ -97,3 +97,5 @@ https://terokarvinen.com/2017/09/19/first-steps-on-a-new-virtual-private-server-
 https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/
 
 https://www.linode.com
+
+https://github.com/mattehelmi/redhat/blob/main/LinuxPalvelimet-h6-Based.md

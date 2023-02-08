@@ -18,11 +18,15 @@
 ## x) Lue ja tiivistä
 
 Karvinen 2012: First Steps on a New Virtual Private Server – an Example on DigitalOcean and Ubuntu 16.04 LTS
-- sadfasf
-- asdfsaf
-- asff
-- asddfs
-- sddsf
+- Artikkeli kertoo lyhyesti ja ytimekkäästi, kuinka virtuaalipalvelin asennetaan ja mitä pitäisi heti ensimmäiseksi tehdä
+- Muista AINA käyttää hyviä salasanoja
+- Seuraavat toimet pitäisi tehdä aina virtuaalipalvelimen hankinnan jälkeen:
+1. Tee reikä tulimuuriin portille 22 ja ota tulimuuri käyttöön
+2. Tee uusi käyttäjä ja anna sille sudo -oikeudet
+3. Testaa toimiiko uuden käyttäjän sudo -oikeudet ja jos toimivat niin lukitse root-käyttäjän salasana
+4. Päivitä uusimmat paketit, jotta vanhat tietoturva-aukot menevät kiinni
+5. Asenna Apache ja tee palomuuriin uusi reikä portille 80, jotta saat yhteyden internetiin
+6. Hanki itsellesi domain ja yhdistä se virtuaalipalvelimeen
 
 ## a) Vuokraa virtuaalipalvelin
 

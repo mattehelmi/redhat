@@ -61,6 +61,7 @@ Kun olin kirjautunut root-tunnuksilla virtuaalipalvelimelleni, tein seuraavat al
     ``$ sudo usermod --lock root``
     
     ``$ sudoedit /etc/ssh/sshd_config``
+    PermitRootLogin no
     
     ``$ sudo service ssh restart``
     

@@ -27,3 +27,9 @@ Kun olin päivittänyt DNS-asetukset, halusin kokeilla toimiiko uusi domain jo. 
 ## b) Tutki oman nimesi tietoja 'host' ja 'dig' -komennoilla
     
 Teen tämän tehtävän kun domain aktivoituu.
+
+## Lähteet
+
+https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/
+
+https://www.namecheap.com

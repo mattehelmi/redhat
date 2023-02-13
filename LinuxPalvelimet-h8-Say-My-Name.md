@@ -42,7 +42,7 @@ Komento ``dig jackblack007.website`` antoi alla näkyvän syötteen.
 
 ![Add file: Upload](dig-h8.png)
 
-Ensimmäisessä kohdassa on ohjelman versionumero sekä komennon syöte. "Got answer" kertoo, miten palvelin vastasi komentoon. "Opt preudosection" kohdassa kerrotaan käytetyt liput (flags), käytetty protokolla (udp) sekä lisätietoa liittyen dns-asetuksiin (edns). "Question" ja "Answer" kohdat kertovat kysytyn sivun tietoja. Lopussa näkyy tietoa hausta: hakuaika millisekunteina, saadun datan koko ja dns-serverin IP-osoite.
+Ensimmäisessä kohdassa on ohjelman versionumero sekä komennon syöte. "Got answer" kertoo, miten palvelin vastasi komentoon. "Opt preudosection" kohdassa kerrotaan käytetyt liput (flags), käytetty protokolla (udp) sekä lisätietoa liittyen dns-asetuksiin (edns). "Question" ja "Answer" kohdat kertovat kysytyn sivun tietoja. Lopussa näkyy tietoa hausta: hakuaika millisekunteina, saadun datan koko ja dns-serverin IP-osoite. KLO 13:21
 
 ## Lähteet
 

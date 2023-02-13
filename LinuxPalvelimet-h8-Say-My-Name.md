@@ -15,10 +15,15 @@
     Kernel-versio:          Darwin 19.6.0
     Virtuaalikone:          Oracle VirtualBox, Version 6.1.40
     
-    ## a) Vuokraa domainnimi
+## a) Vuokraa domainnimi
+Vuokrasin domainnimen NameCheapista. Minulla ei ole aikeissa ainakaan tällä hetkellä omistaa ns. oikeata domainia. Tästä syystä otin vuodeksi käyttöön ``jackblack007.website`` -domainin. Kyseinen domain maksoi ensimmäiseltä vuodelta 1,5€. Domainin vuokraaminen oli helppo operaatio, piti tehdä tunnus ja syöttää henkilökohtaiset tiedot. Sen jälkeen valittiin maksutapa ja itse valitsin Paypalin. Kun maksu oli suoritettu, niin vaihdoin oikeat DNS-asetukset. Alla kuva tekemistäni lisäyksistä DNS-asetuksiin. KLO 8:31
     
-    ![Add file: Upload](linode-h7.png)
+![Add file: Upload](domain-h8.png)
+
+Kun olin päivittänyt DNS-asetukset, halusin kokeilla toimiiko uusi domain jo. Domain ei kuitenkaan toiminut eikä toimi vieläkään (KLO 11:13). Joten nyt vain odotan, että domain aktivoituu. Jätin tämän tehtävän maanataiaamuun, joten todennäköisesti domain ei ehdi aktivoitua 24h ennen läksyjen palautuksen takarajaa. Teen tehtävän loppuun kun domain aktivoituu. Alla kuva virheestä, joka tulee kun yritän avata ``jackblack007.website`` -sivun.
+
+![Add file: Upload](domain2-h8.png)
     
-    ## b) Tutki oman nimesi tietoja 'host' ja 'dig' -komennoilla
+## b) Tutki oman nimesi tietoja 'host' ja 'dig' -komennoilla
     
-    ![Add file: Upload](linode-h7.png)
+Teen tämän tehtävän kun domain aktivoituu.

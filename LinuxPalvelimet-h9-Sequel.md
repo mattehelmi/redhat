@@ -20,24 +20,48 @@
 
 
 ## a) Asenna PostgreSQL
-Minulla ei ollut aikasempaa kokemusta PostgreSQL hallintajärjestelmästä. Asensin PostgreSQL:n alla näkyvillä komennoilla.
+Minulla ei ollut aikasempaa kokemusta PostgreSQL hallintajärjestelmästä. Asensin PostgreSQL:n alla näkyvillä komennoilla. KLO 14:25
 
 ![Add file: Upload](postgresql1-h9.png)
 
 ``sudo apt-get update`` hakee uusimmat päivitykset.
 
-``sudo apt-get -y install postgresql`` asentaa PostgreSQL:n ja vastaa tyhmiin kysymyksiin kyllä.
+``sudo apt-get -y install postgresql`` asentaa PostgreSQL:n ja vastaa tyhmiin kysymyksiin kyllä
 
-``sudo systemctl start postgresql`` käynnistää demonin.
+``sudo systemctl start postgresql`` käynnistää demonin
 
 ``sudo -u postgres createdb mathias`` tekee mathias nimisen tietokannan
 
 ``sudo -u postgres createuser mathias`` luo mathias nimisen PostgreSQL käyttäjän
 
+Seuraavaksi kokeilin onnistuuko taulukon tekeminen PostgreSQL:ssä komennolla ``CREATE TABLE students (id SERIAL PRIMARY KEY, name VARCHAR(200));``. Edellinen komento tulosti halutun näköisen taulukon ja näytti sen komennolla ``\d`` ja tästä voidaan todeta, että PostgreSQL toimii ja asennus on ollut onnistunut. Alla vielä kuva taulukosta.
 
+![Add file: Upload](postgresql2-h9.png)
 
 ## b)CRUD
+CRUD tulee sanoista create, read, update ja delete. Ensimmäiseksi siirryin PostgreSQL:ään komennolla ``psql``. Loin taulukon seuraavalla komennolla ``CREATE TABLE students (id SERIAL PRIMARY KEY, name VARCHAR(200));``. Käytin samaa komentoa kuin edellisessä tehtävässä. Komento ``\d`` tulosti taulukon. Alla vielä kuva taulukosta.
 
+![Add file: Upload](postgresql2-h9.png)
+
+Seuraavaksi kokeilin saada näkyviin taulukon, joka kuvaa sen rakennetta. Tämä onnistui komennolla ``\d students``. Alla kuva.
+
+![Add file: Upload](postgresql3-h9.png)
+
+Tämän jälkeen lisäsin taulukkoon seuraavat nimet: Matti ja Maija. Nimien lisäys tapahtui seuraavilla komennolla ``INSERT INTO students(name) VALUES ('Matti');`` ja ``INSERT INTO students(name) VALUES ('Maija');``. Alla kuva.
+
+![Add file: Upload](postgresql4-h9.png)
+
+Seuraavaksi kokeilin lukea taulukkoa. Se onnistui komennolla ``SELECT * from students;``. Alla kuva.
+
+![Add file: Upload](postgresql5-h9.png)
+
+Lukemisen jälkeen kokeilin päivittää taulukossa esiintyvän Maijan nimeä antamalla hänelle sukunimen "Poppanen". Tein sen seuraavalla komennolla ``UPDATE students SET name='Maija Poppanen' WHERE name='Maija';``. Nimen päivitys onnistui hyvin niin kuin alla olevasta kuvasta näkyy.
+
+![Add file: Upload](postgresql6-h9.png)
+
+Viimeiseksi yritin poistaa Matti -nimen pois taulukosta. Tein sen komennolla ``DELETE FROM students WHERE name='Matti';``. Nimen poistaminen onnistui hyvin ja alla kuva taulukosta, jossa ei enää ole nimeä Matti.
+
+![Add file: Upload](postgresql7-h9.png)
 
 ## Lähteet
 

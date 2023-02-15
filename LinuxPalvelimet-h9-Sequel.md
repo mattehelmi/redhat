@@ -25,9 +25,13 @@ Minulla ei ollut aikasempaa kokemusta PostgreSQL hallintajärjestelmästä. Asen
 ![Add file: Upload](postgresql1-h9.png)
 
 ``sudo apt-get update`` hakee uusimmat päivitykset.
+
 ``sudo apt-get -y install postgresql`` asentaa PostgreSQL:n ja vastaa tyhmiin kysymyksiin kyllä.
+
 ``sudo systemctl start postgresql`` käynnistää demonin.
+
 ``sudo -u postgres createdb mathias`` tekee mathias nimisen tietokannan
+
 ``sudo -u postgres createuser mathias`` luo mathias nimisen PostgreSQL käyttäjän
 
 

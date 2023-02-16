@@ -20,7 +20,7 @@ Valitsin tähän esimerkiksi käyttämäni nettisivun Nimenhuuto.com. Se on pall
 
 - Nettisivulta löytyy käyttöliittymä, mutta esimerkiksi joukkueiden tiedot ovat haettu palvelimen avulla tietokannasta
 - Nettiselain toimii suurin piirtein kaikilla mahdollisilla alustoilla eli sivulla on hyvä saavutettavuus
-- Palvelimella tehdään sivulle muokkauksia, jotka sitten ladataan käyttäjälle kun hän klikkaa toiminnallisuuksia sivulla
+- Palvelimella tehdään sivulle muokkauksia, jotka sitten ladataan käyttäjälle kun hän esimerkiksi klikkaa toiminnallisuuksia sivulla
 
 ## a) Asenna PostgreSQL
 Minulla ei ollut aikasempaa kokemusta PostgreSQL hallintajärjestelmästä. Asensin PostgreSQL:n alla näkyvillä komennoilla. KLO 14:25

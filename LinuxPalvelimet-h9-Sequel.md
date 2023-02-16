@@ -16,8 +16,11 @@
     Virtuaalikone:          Oracle VirtualBox, Version 6.1.40
     
 ## x) Esimerkki palvelusta, jota käytetään wepissä selaimella, koodi ajetaan palvelimella ja taustalla on tietokanta
+Valitsin tähän esimerkiksi käyttämäni nettisivun Nimenhuuto.com. Se on palloilulajeihin suunnattu sivu, jossa ilmoittaudutaan esimerkiksi peleihin. Uskoisin, että kyseinen sivu käyttää kaikkia tehtävässä kuvattuja toimintoja, mutta en tosin ole tästä aivan 100 prosenttisen varma. Palvelussa on ainakin pakko olla tietokanta, sillä joukkueet ovat tallennettu sinne ja tietoja voidaan muokata. Minulla ei tule mieleen muuta tapaa toteuttaa palvelu, kuin käyttämällä tietokantoja.
 
-
+- Nettisivulta löytyy käyttöliittymä, mutta esimerkiksi joukkueiden tiedot ovat haettu palvelimen avulla tietokannasta
+- Nettiselain toimii suurin piirtein kaikilla mahdollisilla alustoilla eli sivulla on hyvä saavutettavuus
+- Palvelimella tehdään sivulle muokkauksia, jotka sitten ladataan käyttäjälle kun hän klikkaa toiminnallisuuksia sivulla
 
 ## a) Asenna PostgreSQL
 Minulla ei ollut aikasempaa kokemusta PostgreSQL hallintajärjestelmästä. Asensin PostgreSQL:n alla näkyvillä komennoilla. KLO 14:25
@@ -26,13 +29,13 @@ Minulla ei ollut aikasempaa kokemusta PostgreSQL hallintajärjestelmästä. Asen
 
 ``sudo apt-get update`` hakee uusimmat päivitykset.
 
-``sudo apt-get -y install postgresql`` asentaa PostgreSQL:n ja vastaa tyhmiin kysymyksiin kyllä
+``sudo apt-get -y install postgresql`` asentaa PostgreSQL:n ja vastaa tyhmiin kysymyksiin kyllä.
 
-``sudo systemctl start postgresql`` käynnistää demonin
+``sudo systemctl start postgresql`` käynnistää demonin.
 
-``sudo -u postgres createdb mathias`` tekee mathias nimisen tietokannan
+``sudo -u postgres createdb mathias`` tekee mathias (sama nimi kuin virtuaalikoneen käyttäjä) nimisen tietokannan.
 
-``sudo -u postgres createuser mathias`` luo mathias nimisen PostgreSQL käyttäjän
+``sudo -u postgres createuser mathias`` luo mathias nimisen PostgreSQL käyttäjän.
 
 Seuraavaksi kokeilin onnistuuko taulukon tekeminen PostgreSQL:ssä komennolla ``CREATE TABLE students (id SERIAL PRIMARY KEY, name VARCHAR(200));``. Edellinen komento tulosti halutun näköisen taulukon ja näytti sen komennolla ``\d`` ja tästä voidaan todeta, että PostgreSQL toimii ja asennus on ollut onnistunut. Alla vielä kuva taulukosta.
 

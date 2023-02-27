@@ -99,7 +99,7 @@ Seuraavaksi lisätään malleja äsken tehtyyn 'products' tietokantaan.
     
     from django.db import models
     
-    class Products(models.Model):
+    class Product(models.Model):
         name = models.CharField(max_length=300)
         
 Tämän jälkeen ajetaan muutokset seuraavilla komennoilla.
@@ -113,7 +113,7 @@ Seuraavaksi rekisteröidään uusi tietokanta ``admin/``, jotta se on nähtävis
     
     from django.contrib import admin
     from . import models
-    admin.site.register(models.Products)
+    admin.site.register(models.Product)
 
 Seuraavaksi kokeillaan toimiiko uusi tuotetietokanta. Ajetaan seuraava komento.
 
@@ -129,7 +129,7 @@ Viimeiseksi muutin tuotteiden nimet näkyviin. Se onnistui seuraavilla komennoil
     
     from django.db import models
 
-    class Customer(models.Model):
+    class Product(models.Model):
     name = models.CharField(max_length=160)
 
     def __str__(self):		# new

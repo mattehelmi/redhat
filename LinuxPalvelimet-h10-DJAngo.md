@@ -16,7 +16,12 @@
     Virtuaalikone:          Oracle VirtualBox, Version 6.1.40
     
 # A) Tietokantasovellus
+Itsellä ei ollut juuri kokemusta djangosta ennen tätä kurssia, joten siitä syystä seurasin Teron tekemiä ohjeita (https://terokarvinen.com/2022/django-instant-crm-tutorial/) hyvin tarkasti. 
 
+Ensimmäiseksi ladataan virtualenv ja uusin python3 versio. KLO 9:35
+
+    $ sudo apt-get -y install virtualenv
+    $ virtualenv --system-site-packages -p python3 env/
 
 
 ![Add file: Upload](-h10.png)

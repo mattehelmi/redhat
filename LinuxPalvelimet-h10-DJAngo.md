@@ -18,13 +18,18 @@
 # A) Tietokantasovellus
 Itsellä ei ollut juuri kokemusta djangosta ennen tätä kurssia, joten siitä syystä seurasin Teron tekemiä ohjeita (https://terokarvinen.com/2022/django-instant-crm-tutorial/) hyvin tarkasti. 
 
-Ensimmäiseksi ladataan virtualenv ja uusin python3 versio. KLO 9:35
+Ensimmäiseksi ladataan virtualenv ja uusimmat python versiot. Tässä vaiheessa tehdään myös ``env/`` -niminen kansio, jonne paketit ladataan. KLO 9:35
 
     $ sudo apt-get -y install virtualenv
     $ virtualenv --system-site-packages -p python3 env/
+    
+![Add file: Upload](django1-h10.png)
+    
+Seuraavaksi kokeillaan käyttää virtuaaliympäristöä.
 
-
-![Add file: Upload](-h10.png)
+    $ source env/bin/activate
+    
+![Add file: Upload](django2-h10.png)
 
 
 

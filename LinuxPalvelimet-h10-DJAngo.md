@@ -81,7 +81,7 @@ Seuraavaksi teen tuotetietokannan seuraavalla komennolla.
 
     $ ./manage.py startapp products
 
-Tämän jälkeen muokkaan massecomin asetuksia ja lisään sinne kohdan 'products'
+Tämän jälkeen muokkasin massecomin asetuksia ja lisään sinne kohdan 'products'
 
     INSTALLED_APPS = [
         'django.contrib.admin',
@@ -90,7 +90,7 @@ Tämän jälkeen muokkaan massecomin asetuksia ja lisään sinne kohdan 'product
         'django.contrib.sessions',
         'django.contrib.messages',
         'django.contrib.staticfiles',
-        'products', # tämä kohta lisätään
+        'products', # lisäsin tämän kohdan
     ]
 
 Seuraavaksi lisätään malleja äsken tehtyyn 'products' tietokantaan.
@@ -101,8 +101,13 @@ Seuraavaksi lisätään malleja äsken tehtyyn 'products' tietokantaan.
     
     class Products(models.Model):
         name = models.CharField(max_length=300)
+        
+Tämän jälkeen ajetaan muutokset seuraavilla komennoilla.
 
-Seuraavaksi rekisteröidään tietokanta ``admin/``.
+    $ ./manage.py makemigrations
+    $ ./manage.py migrate
+
+Seuraavaksi rekisteröidään uusi tietokanta ``admin/``, jotta se on nähtävissä .
 
     $ nano products/admin.py
     
@@ -116,6 +121,25 @@ Seuraavaksi kokeillaan toimiiko uusi tuotetietokanta. Ajetaan seuraava komento.
     
 ![Add file: Upload](django6-h10.png)
 
+Yllä olevasta kuvasta näkee, että "Products" -niminen kategoria on lisätty onnistuneesti sivulle.
+
+Viimeiseksi muutin tuotteiden nimet näkyviin. Se onnistui seuraavilla komennoilla ja muutoksilla.
+
+    $ nano products/models.py
+    
+    from django.db import models
+
+    class Customer(models.Model):
+    name = models.CharField(max_length=160)
+
+    def __str__(self):		# new
+        return self.name	# new
+
+Katsotaan onnistuiko nimien muuttaminen oikeiksi tuotenimiksi.
+
+![Add file: Upload](django7-h10.png)
+
+Tuotenimet ovat oikein, joten nimien päivitys onnistui.
 
 Tehtävän lopetusaika 12:27
 

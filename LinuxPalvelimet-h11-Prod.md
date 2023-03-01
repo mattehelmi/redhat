@@ -39,7 +39,7 @@ Tekstin vaihtaminen onnistui, testasin sen ``curl`` komennolla. Alla kuva.
 Seuraavaksi lisäsin hakemistopolun ja kansiot ja muutin esimerkkitekstiä alla näkyvillä komennoilla.
 
     $ mkdir -p publicwsgi/masacom/static/
-    $ echo "Staattinen sivu."|tee publicwsgi/teroco/static/index.html
+    $ echo "Staattinen sivu."|tee publicwsgi/masacom/static/index.html
     
 Seuraavaksi lisäsin uuden virtuaalihostin (eng. VirtualHost) ja muutin tiedoston sisällön oikeaksi.
 
@@ -54,7 +54,7 @@ Seuraavaksi lisäsin uuden virtuaalihostin (eng. VirtualHost) ja muutin tiedosto
 
 Tämän jälkeen aktivoin uudet asetukset, kytkin vanhat pois päältä ja testasin toimivatko uudet asetukset.
 
-    $ sudo a2ensite teroco.conf
+    $ sudo a2ensite masacom.conf
     $ sudo a2dissite 000-default.conf
     $ /sbin/apache2ctl configtest
     

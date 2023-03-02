@@ -146,7 +146,7 @@ Seuraavaksi kytkin DEBUGin pois päältä. Se onnistui muokkaamalla ``settings.p
     DEBUG = False
     ALLOWED_HOSTS = ["localhost"]
     
-Tämän jälkeen kosketin ``wsgi.py`` -tiedostoa, käynnistin Apachen uudestaan ja testasin onko DEBUG viesti lähtenyt pois.
+Tämän jälkeen kosketin ``wsgi.py`` -tiedostoa, käynnistin Apachen uudestaan ja testasin onko DEBUG -viesti lähtenyt pois.
 
     $ touch wsgi.py
     $ sudo systemctl restart apache2
@@ -160,7 +160,7 @@ Viimeiseksi lisäsin tyylisivun  ``settings.py`` -tiedostoon seuraavalla komenno
     import os
     STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
     
-Tämän jälkeen ajoin vielä komennon ``./manage.py collectstatic`` ja nyt tyylisivun pitäisi olla lisätty. Viimeinen testi.
+Tämän jälkeen ajoin vielä komennon ``./manage.py collectstatic`` ja nyt tyylisivu pitäisi olla lisätty. Viimeinen testi.
 
 ![Add file: Upload](prod7-h11.png)
 

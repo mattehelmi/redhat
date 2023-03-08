@@ -68,7 +68,7 @@ Kolmanneksi ohjelmointikieleksi valitsin Rubyn. Asensin sen komentorivin kautta.
     
 ![Add file: Upload](helloworld5-h13.png)
 
-Myös Ruby oli jo asennettu koneelle. Seuraavaksi tein tiedoston nimeltään "helloworld.rb" ja muokkasin tiedostoa Nanolla niin, että se näyttää tekstin "Hello world", kun se ajetaan Bashilla. Lopuksi ajoin tiedoston Rubylla ja testasin tulostuuko teksti oikein.
+Myös Ruby oli jo asennettu koneelle. Seuraavaksi tein tiedoston nimeltään "helloworld.rb" ja muokkasin tiedostoa Nanolla niin, että se näyttää tekstin "Hello world", kun se ajetaan Rubylla. Lopuksi ajoin tiedoston Rubylla ja testasin tulostuuko teksti oikein.
 
     nano helloworld.rb
     print ("Hello world\n") # lisäsin tämän koodin tiedoston sisälle

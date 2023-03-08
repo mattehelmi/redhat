@@ -30,7 +30,7 @@ Ensimmäiseksi päivitin paketit ja sen jonka jälkeen asensin Python 3 ohjelmoi
     
 ![Add file: Upload](helloworld1-h13.png)
 
-Python 3 olikin jo asennettu. Seuraavaksi tein tiedoston nimeltään "helloworld.py" ja muokkasin tiedostoa niin, että se näyttää tekstin "Hello world", kun se ajetaan Pythonilla. Lopuksi ajoin tiedoston Python 3:lla ja testasin tulostuuko teksti oikein.
+Python 3 olikin jo asennettu. Seuraavaksi tein tiedoston nimeltään "helloworld.py" ja muokkasin tiedostoa Nanolla niin, että se näyttää tekstin "Hello world", kun se ajetaan Pythonilla. Lopuksi ajoin tiedoston Python 3:lla ja testasin tulostuuko teksti oikein.
 
     nano helloworld.py
     print("Hello world") # lisäsin tämän koodin tiedoston sisälle
@@ -49,7 +49,7 @@ Toiseksi ohjelmointikieleksi valitsin Bashin. Asensin Bashin komentorivin kautta
     
 ![Add file: Upload](helloworld3-h13.png)
 
-Bash oli myös asennettu valmiiksi. Seuraavaksi tein tiedoston nimeltään "helloworld.sh" ja muokkasin tiedostoa niin, että se näyttää tekstin "Hello world", kun se ajetaan Bashilla. Lopuksi ajoin tiedoston Bashilla ja testasin tulostuuko teksti oikein.
+Bash oli myös asennettu valmiiksi. Seuraavaksi tein tiedoston nimeltään "helloworld.sh" ja muokkasin tiedostoa Nanolla niin, että se näyttää tekstin "Hello world", kun se ajetaan Bashilla. Lopuksi ajoin tiedoston Bashilla ja testasin tulostuuko teksti oikein.
 
     nano helloworld.sh
     echo "Hello world" # lisäsin tämän koodin tiedoston sisälle
@@ -68,7 +68,7 @@ Kolmanneksi ohjelmointikieleksi valitsin Rubyn. Asensin sen komentorivin kautta.
     
 ![Add file: Upload](helloworld5-h13.png)
 
-Myös Ruby oli jo asennettu koneelle. Seuraavaksi tein tiedoston nimeltään "helloworld.rb" ja muokkasin tiedostoa niin, että se näyttää tekstin "Hello world", kun se ajetaan Bashilla. Lopuksi ajoin tiedoston Rubylla ja testasin tulostuuko teksti oikein.
+Myös Ruby oli jo asennettu koneelle. Seuraavaksi tein tiedoston nimeltään "helloworld.rb" ja muokkasin tiedostoa Nanolla niin, että se näyttää tekstin "Hello world", kun se ajetaan Bashilla. Lopuksi ajoin tiedoston Rubylla ja testasin tulostuuko teksti oikein.
 
     nano helloworld.rb
     print ("Hello world\n") # lisäsin tämän koodin tiedoston sisälle

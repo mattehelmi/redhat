@@ -24,7 +24,7 @@ Aloitin tehtävän luomalla kansion "Skriptit". Sen sisälle tein tiedoston nime
     $ mkdir Skriptit
     $ cd Skriptit
     $ nano pwdls
-    #! /usr/bin/bash
+    #!/usr/bin/bash
     pwd
     ls
     
@@ -45,7 +45,7 @@ Testi onnistui testikäyttäjällä, joten siitä voi päätellä, että uusi ko
 Aloitin tehtävän luomalla tiedoston "nice". Muokkasin tiedoston sisältöä ja lisäsin sinne Python3 -kieltä. Lisätty koodi näyttää tekstin "Nice to see you!" Kopioin tiedostopolun niin, että kaikilla käyttäjillä on pääsy siihen. Lopuksi annoin kaikille käyttäjille oikeuden ajaa tiedostoa (chmod a+x).
 
     $ nano nice
-     #! /usr/bin/bash
+     #!/usr/bin/bash
      print("Nice to see you!")
      
      $ sudo cp /home/mathias/Skriptit/nice /usr/local/bin
@@ -71,7 +71,7 @@ Kuvassä näkyvä koodi muokkaa kaikkia nykyisessä kansiossa olevia tiedostoja 
 Päätin yrittää tehdä täysin samanlaisen komennon. Aloitin luomalla tiedoston "add_txt". Muokkasin tiedoston sisältöä ja lisäsin sinne ChatGPT:stä saadun Bash-koodin. Kopioin tiedostopolun taas niin, että kaikilla käyttäjillä on pääsy siihen. Lopuksi annoin kaikille käyttäjille oikeuden ajaa tiedostoa (chmod a+x).
 
     $ nano add_txt
-    #! /usr/bin/bash
+    #!/usr/bin/bash
     for file *
     do
         mv "$file" "$file.txt"

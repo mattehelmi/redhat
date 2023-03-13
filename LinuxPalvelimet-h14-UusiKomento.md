@@ -78,7 +78,7 @@ Päätin yrittää tehdä täysin samanlaisen komennon. Aloitin luomalla tiedost
     done
      
     $ sudo cp /home/mathias/Skriptit/add_txt /usr/local/bin
-    $ chmod a+x nice
+    $ chmod a+x add_txt
 
 Tämän jälkeen vaihdoin käyttäjää ja kokeilin voiko toinen käyttäjä ajaa komennon onnistuneesti.
 
